@@ -1,5 +1,8 @@
 # Project documentation
 
+## Project purpose
+This educational website showcases hiking trails worldwide, categorized by the four seasons. Designed to inspire exploration and appreciation for nature, it offers a curated selection of trails suited for all experience levels.
+
 ## General project structure
 <ul>
   <li>root folder (project folder)</li>
