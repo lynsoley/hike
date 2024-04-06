@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring Hikes</title>
+    <link rel="stylesheet" href="./css/animation.css">
+    <link rel="stylesheet" href="./css/global.css"/>
+    <link rel="stylesheet" href="./css/spring.css"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="./js/pure-flower.js" defer></script>
+    <script src="./js/global.js" defer></script>
+    <script src="./js/search.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" />
+  </head>
+  <body>
+    <div id="ani" count="200"></div>
+
+    <header class="menu-flex-container">
+      <article id="burger-menu" href="javascript:void(0);" onclick="openNav()">
+        <i class="fa fa-bars" id="burgerli-menu"></i>
+      </article>
+      <article id="menu">
+        <a href="./index.html" class="nav-home">Home</a>
+        <a href="./winter.html" class="nav-winter-hikes">Winter Hikes</a>
+        <a href="./spring.html" class="nav-spring-hikes">Spring Hikes</a>
+        <a href="./summer.html" class="nav-summer-hikes">Summer Hikes</a>
+        <a href="./autumn.html" class="nav-autumn-hikes">Autumn Hikes</a>
+        <i class="fa-solid fa-magnifying-glass lupe" id="search-icon"></i>
+        <i class="fa-solid fa-play lupe" id="iconElement" onclick="showAnimation('fa-play')"></i>
+      </article>
+      <div class="title-container">
+        <h1 class="title">Spring Hikes</h1>
+      </div>
+      <form id="form"> 
+        <label>
+          <input type="search" id="query" name="q" placeholder="Search Hike Name...">
+        </label>
+      </form>
+    </header>
+
+    <main class="main-flex-container">
+      <article class="hike">
+        <h2 class="hike-name">Wild Flower Walk</h2>
+        <img class="hike-img" alt="Bright red poppy meadow with mountains and blue sky" src="./resources/sp9.jpg">
+      </article>
+      <article class="hike">
+        <h2 class="hike-name">Rape Field Hike</h2>
+        <img class="hike-img" alt="Bright yellow rape meadow with white background" src="./resources/sp5.jpg">
+      </article>
+      <article class="hike">
+        <h2 class="hike-name">Green Escape</h2>
+        <img class="hike-img" alt="Lush green flower meadow with cloudy background" src="./resources/sp3.jpg">
+      </article>
+      <article class="hike">
+        <h2 class="hike-name">Fresh Start Trail</h2>
+        <img class="hike-img" alt="Sunlit grassy meadow" src="./resources/sp4.jpg">
+      </article>
+      <article class="hike">
+        <h2 class="hike-name">Floral Ramble</h2>
+        <img class="hike-img" alt="Farbige Blumenwiese mit Luftballönen im hintergrund" src="./resources/sp10.jpg">
+      </article>
+      <article class="hike">
+        <h2 class="hike-name">Awakening Nature Expedition</h2>
+        <img class="hike-img" alt="Violet flowers growing on brown grass in the mountains" src="./resources/sp6.jpg">
+      </article>
+      <article class="hike">
+        <h2 class="hike-name">Flower-Filled Trek</h2>
+        <img class="hike-img" alt="Violet green flower meadow with blue sky" src="./resources/sp7.jpg">
+      </article>
+      <article class="hike">
+        <h2 class="hike-name">Blossom Hike</h2>
+        <img class="hike-img" alt="Mirrored lake lined with pink flowering trees" src="./resources/sp8.jpg">
+      </article>
+      <article class="hike">
+        <h2 class="hike-name">Green Hills Hike</h2>
+        <img class="hike-img" alt="Yellow flowers with green bushes in background" src="./resources/sp1.jpg">
+      </article>
+      <article class="hike">
+        <h2 class="hike-name">Spring Bridge Walk</h2>
+        <img class="hike-img" alt="Brown wooden bridge lined with trees" src="./resources/sp2.jpg">
+      </article>
+      <article class="hike">
+        <h2 class="hike-name">Spring Awakening Trek</h2>
+        <img class="hike-img" alt="River with trees, grass and stones on the bank" src="./resources/sp11.jpg">
+      </article>
+      <article class="hike">
+        <h2 class="hike-name">Sunshine Stroll</h2>
+        <img class="hike-img" alt="Green meadow with trees and setting sun" src="./resources/sp12.jpg">
+      </article>
+    </main>
+      
+    <footer class="footer-flex-container">
+      <a href="./impressum.html" class="impressum">Impressum</a>
+    </footer>
+
+    <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
+
+  </body>
+</html>

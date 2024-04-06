@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summer Hikes</title>
+    <link rel="stylesheet" href="./css/animation.css">
+    <link rel="stylesheet" href="./css/global.css"/>
+    <link rel="stylesheet" href="./css/summer.css"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="./js/pure-rainbow.js" defer></script>
+    <script src="./js/global.js" defer></script>
+    <script src="./js/search.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" />
+  </head>
+  <body>
+    <div id="ani" count="200"></div>
+
+    <header class="menu-flex-container">
+      <article id="burger-menu" href="javascript:void(0);" onclick="openNav()">
+        <i class="fa fa-bars" id="burgerli-menu"></i>
+      </article>
+      <article id="menu">
+        <a href="./index.html" class="nav-home">Home</a>
+        <a href="./winter.html" class="nav-winter-hikes">Winter Hikes</a>
+        <a href="./spring.html" class="nav-spring-hikes">Spring Hikes</a>
+        <a href="./summer.html" class="nav-summer-hikes">Summer Hikes</a>
+        <a href="./autumn.html" class="nav-autumn-hikes">Autumn Hikes</a>
+        <i class="fa-solid fa-magnifying-glass lupe" id="search-icon"></i>
+        <i class="fa-solid fa-play lupe" id="iconElement" onclick="showAnimation('fa-play')"></i>
+      </article>
+      <div class="title-container">
+        <h1 class="title">Summer Hikes</h1>
+      </div>
+      <form id="form"> 
+        <label>
+          <input type="search" id="query" name="q" placeholder="Search Hike Name...">
+        </label>
+      </form>
+    </header>
+
+    <main class="main-flex-container">
+      <article class="hike">
+        <h2 class="hike-name">Grain Field Hike</h2>
+        <img class="hike-img" alt="Path lined with golden yellow grain" src="./resources/su1.jpg">
+      </article>
+      <article class="hike">
+        <h2 class="hike-name">Riverbank Roam</h2>
+        <img class="hike-img" alt="Mountain lake with trees in background" src="./resources/su2.jpg">
+      </article>
+      <article class="hike">
+        <h2 class="hike-name">Scenic Vista Trail</h2>
+        <img class="hike-img" alt="Desert at sunset with car and palm trees" src="./resources/su9.jpg">
+      </article>
+      <article class="hike">
+        <h2 class="hike-name">Sunny Summit</h2>
+        <img class="hike-img" alt="Mountain landscape with dry bush and clouds" src="./resources/su4.jpg">
+      </article>
+      <article class="hike">
+        <h2 class="hike-name">Costal Adventure</h2>
+        <img class="hike-img" alt="Beach with deep blue ocean" src="./resources/su10.jpg">
+      </article>
+      <article class="hike">
+        <h2 class="hike-name">Sun-Kissed Expedition</h2>
+        <img class="hike-img" alt="Two people on the beach" src="./resources/su6.jpg">
+      </article>
+      <article class="hike">
+        <h2 class="hike-name">Wilderness Wandering</h2>
+        <img class="hike-img" alt="Four people in the mountains" src="./resources/su7.jpg">
+      </article>
+      <article class="hike">
+        <h2 class="hike-name">Mountain Escapade</h2>
+        <img class="hike-img" alt="Person walks over boulders in the mountains" src="./resources/su8.jpg">
+      </article>
+      <article class="hike">
+        <h2 class="hike-name">Desert Oasis Walk</h2>
+        <img class="hike-img" alt="Dried up hill landscape with standing person" src="./resources/su3.jpg">
+      </article>
+      <article class="hike">
+        <h2 class="hike-name">Woodland Exploration</h2>
+        <img class="hike-img" alt="Forest grotto with waterfall" src="./resources/su5.jpg">
+      </article>
+      <article class="hike">
+        <h2 class="hike-name">Palm Beach Experience</h2>
+        <img class="hike-img" alt="Beach with blue sky, sea and palm trees" src="./resources/su11.jpg">
+      </article>
+      <article class="hike">
+        <h2 class="hike-name">Beachfront Hike</h2>
+        <img class="hike-img" alt="Beach with blue sky, sea and palm trees" src="./resources/su12.jpg">
+      </article>
+    </main>
+      
+    <footer class="footer-flex-container">
+      <a href="./impressum.html" class="impressum">Impressum</a>
+    </footer>
+
+    <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
+
+  </body>
+</html>
