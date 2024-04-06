@@ -1,0 +1,104 @@
+:root {
+    /********** Spring colors **********/
+
+    /* Spring theme */
+    --background-green: #072A14;
+    --darker-green: #15803D;
+    --dark-green: #16A34A;
+    --middle-green: #22C55E;
+    --light-green: #4ADE80;
+    --lighter-green: #86EFAC;
+    --hike-green: #16A34A;
+  }
+
+
+
+/* ------------------------ general ---------------------- */
+body {
+  background: radial-gradient(ellipse at bottom, var(--background-green) 0%, var(--background-green) 100%);
+  color: var(--dark-green);
+}
+
+.winter-hikes-mobile-darkmode {
+  background: var(--background-green);
+}
+
+.nav-autumn-hikes, .lupe, .nav-spring-hikes, .nav-summer-hikes, .nav-winter-hikes, .nav-home, .hike, .footer-flex-container, #burger-menu {
+  background: var(--background-green);
+}
+
+
+
+/* ------------------------------- header ------------------------------ */
+.fa, .fa-bars {
+    color: var(--darker-green);
+  }
+
+  .nav-autumn-hikes {
+    border-color: var(--lighter-green);
+    color: var(--lighter-green);
+  }
+  
+  .nav-summer-hikes {
+    border-color: var(--light-green);
+    color: var(--light-green);
+  }
+  
+  .nav-spring-hikes {
+    border-color: var(--middle-green);
+    color: var(--middle-green);
+    border-width: 3px;
+    font-weight: bolder;
+  }
+  
+  .nav-winter-hikes {
+    border-color: var(--dark-green);
+    color: var(--dark-green);
+  }
+  
+  .nav-home {
+    border-color: var(--darker-green);
+    color: var(--darker-green);
+  }
+  
+  #burger-menu {
+    border-color: var(--dark-green);
+  }
+
+  .lupe {
+    border-color: var(--lighter-green);
+    color: var(--lighter-green);
+  }
+
+  input {
+    background-color: var(--lighter-green);
+    border-color: var(--light-green);
+    color: var(--background-green);
+}
+
+
+/* ------------------------------- main -------------------------- */
+.title {
+  background: var(--background-green);
+  border-color: var(--darker-green);
+  color: var(--darker-green);
+}
+  
+.hike-name {
+  color: var(--hike-green);
+}
+
+.hike {
+  border-color: var(--hike-green);
+}
+
+
+
+/* ----------------------- footer ------------------------ */
+.footer-flex-container {
+  border-color: var(--darker-green);
+}
+
+.impressum {
+  color: var(--darker-green);
+}

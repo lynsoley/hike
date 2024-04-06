@@ -1,0 +1,104 @@
+:root {
+    /********** Summer colors **********/
+
+    /* Summer theme */
+    --background-orange: #2C1106;
+    --darker-orange: #C2410C;
+    --dark-orange: #EA580C;
+    --middle-orange: #F97316;
+    --light-orange: #FB923C;
+    --lighter-orange: #FDBA74;
+    --hike-orange: #EA580C;
+  }
+
+
+
+/* ------------------------ general ---------------------- */
+body {
+  background: radial-gradient(ellipse at bottom, var(--background-orange) 0%, var(--background-orange) 100%);
+  color: var(--dark-orange);
+}
+
+.winter-hikes-mobile-darkmode {
+  background: var(--background-orange);
+}
+
+.nav-autumn-hikes, .lupe, .nav-spring-hikes, .nav-summer-hikes, .nav-winter-hikes, .nav-home, .hike, .footer-flex-container, #burger-menu {
+  background: var(--background-orange);
+}
+
+
+
+/* ------------------------------- header ------------------------------ */
+.fa, .fa-bars {
+    color: var(--darker-orange);
+  }
+
+  .nav-autumn-hikes {
+    border-color: var(--lighter-orange);
+    color: var(--lighter-orange);
+  }
+  
+  .nav-summer-hikes {
+    border-color: var(--light-orange);
+    color: var(--light-orange);
+    border-width: 3px;
+    font-weight: bolder;
+  }
+  
+  .nav-spring-hikes {
+    border-color: var(--middle-orange);
+    color: var(--middle-orange);
+  }
+  
+  .nav-winter-hikes {
+    border-color: var(--dark-orange);
+    color: var(--dark-orange);
+  }
+  
+  .nav-home {
+    border-color: var(--darker-orange);
+    color: var(--darker-orange);
+  }
+  
+  #burger-menu {
+    border-color: var(--dark-orange);
+  }
+
+  .lupe {
+    border-color: var(--lighter-orange);
+    color: var(--lighter-orange);
+  }
+
+  input {
+    background-color: var(--lighter-orange);
+    border-color: var(--light-orange);
+    color: var(--background-orange);
+}
+
+
+/* ------------------------------- main -------------------------- */
+.title {
+  background: var(--background-orange);
+  border-color: var(--darker-orange);
+  color: var(--darker-orange);
+}
+  
+.hike-name {
+  color: var(--hike-orange);
+}
+
+.hike {
+  border-color: var(--hike-orange);
+}
+
+
+
+/* ----------------------- footer ------------------------ */
+.footer-flex-container {
+  border-color: var(--darker-orange);
+}
+
+.impressum {
+  color: var(--darker-orange);
+}

@@ -1,0 +1,171 @@
+:root {
+    /********** Summer colors **********/
+
+    /* Home theme */
+    --background-home: #180826;
+    --darker-home: #7E22CE;
+    --dark-home: #9333EA;
+    --middle-home: #A855F7;
+    --light-home: #C084FC;
+    --lighter-home: #C4B5FD;
+    --hike-home: #9333EA;
+  }
+
+
+
+
+/* ------------------------ animation ---------------------- */
+body {
+  /* If you want to change the site height you can remove overflow-y */
+  /* pureSnow will automatically detect height of body tag */
+  
+  color: var(--middle-home);
+}
+
+
+
+/* ------------------------ general ---------------------- */
+body {
+  background: radial-gradient(ellipse at bottom, var(--background-home) 0%, var(--background-home) 100%);
+}
+
+.winter-hikes-mobile-darkmode {
+  background: var(--background-home);
+}
+
+.nav-autumn-hikes, .nav-spring-hikes, .nav-summer-hikes, .nav-winter-hikes, .nav-home, .hike, .footer-flex-container, #burger-menu {
+  background: var(--background-home);
+}
+
+
+
+/* ------------------------------- header ------------------------------ */
+.fa, .fa-bars {
+    color: var(--darker-home);
+  }
+
+  .nav-autumn-hikes {
+    border-color: var(--lighter-home);
+    color: var(--lighter-home);
+  }
+  
+  .nav-summer-hikes {
+    border-color: var(--light-home);
+    color: var(--light-home);
+  }
+  
+  .nav-spring-hikes {
+    border-color: var(--middle-home);
+    color: var(--middle-home);
+  }
+  
+  .nav-winter-hikes {
+    border-color: var(--dark-home);
+    color: var(--dark-home);
+  }
+  
+  .nav-home {
+    border-color: var(--darker-home);
+    color: var(--darker-home);
+    border-width: 3px;
+    font-weight: bolder;
+  }
+  
+  #burger-menu {
+    border-color: var(--dark-home);
+  }
+
+  .lupe {
+    border-color: var(--lighter-home);
+    color: var(--lighter-home);
+  }
+
+
+
+/* ------------------------------- main -------------------------- */
+.title {
+  background: var(--background-home);
+  border-color: var(--darker-home);
+  color: var(--darker-home);
+}
+  
+.hike-name {
+  color: var(--hike-home);
+}
+
+.hike {
+  border-color: var(--hike-home);
+  display:grid;
+  justify-content: center;
+  align-items: center;
+}
+
+#lead-sentence {
+  font-weight: bolder;
+  font-size: large;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: var(--light-home);
+    margin-bottom: 10px;
+  }
+  
+td, th {
+  border: 1px solid #faf5ff;
+  text-align: left;
+  padding: 3px;
+  color: var(--darker-home);
+}
+
+tr:nth-child(even) {
+  background-color: #faf5ff;
+}
+
+form {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+#fname {
+  margin-bottom: 5px;
+}
+
+#femail {
+  margin-bottom: 5px;
+}
+
+#message {
+  margin-bottom: 0;
+}
+
+#submit {
+  margin-top: 7px;
+}
+
+input {
+  color: white;
+  background-color: #A855F7;
+  border-color: #A855F7;
+  border-radius: 10px;
+  padding: 2px;
+}
+
+::placeholder {
+  color: white;
+}
+
+
+
+
+/* ----------------------- footer ------------------------ */
+.footer-flex-container {
+  border-color: var(--darker-home);
+}
+
+.impressum {
+  color: var(--darker-home);
+}
